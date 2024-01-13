@@ -42,7 +42,7 @@ function AtualizaTabela() {
 
 function AtualizaMediaFinal () {
     const MediaFinal = CalculaMediaFinal()
-    document.getElementById('Media').innerHTML = MediaFinal
+    document.getElementById('Media').innerHTML = MediaFinal.toFixed(2)
     document.getElementById('Media2').innerHTML = MediaFinal >= NotaMinima ? SpanAprovado : SpanReprovado;
 
 }
