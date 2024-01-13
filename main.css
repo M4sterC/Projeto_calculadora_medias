@@ -84,3 +84,7 @@ table img {
 .reprovado {
     background-color:#fd3f00 ;
 }
+
+tfoot td {
+    font-weight: bolder;
+    background-color: #c3bfbf
